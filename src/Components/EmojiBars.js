@@ -1,8 +1,6 @@
 const EmojiBars = (props) => {
     const handleClick = async () => {
-        await props.setCopyState(props.emoji.symbol);
-        console.log(props.copyState);
-        navigator.clipboard.writeText(props.copyState);
+        navigator.clipboard.writeText(props.emoji.symbol);
     }
     return (
         <div onClick={handleClick} className={"emoji-div"}>
