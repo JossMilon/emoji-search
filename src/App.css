@@ -22,7 +22,8 @@
   background-color: #F7EFEF;
   border: none;
   text-align: center;
-  width: 600px;
+  width: 80%;
+  max-width: 600px;
   font-size: 18px;
 }
 
