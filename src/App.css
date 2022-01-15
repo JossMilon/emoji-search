@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+
+.navBar {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.navBar h1 {
+  font-weight: 400;
+}
+
+.navBar input {
+  padding: 15px;
+  background-color: #F7EFEF;
+  border: none;
+  text-align: center;
+  width: 600px;
+  font-size: 18px;
+}
+
+/* EMOJI BLOCK */
+
+.emoji-div {
+  padding: 15px;
+  background-color: #fcfbfb;
+  border: none;
+  font-size: 25px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.emoji-div p {
+  font-size: 13px;
+  display: none;
+  margin: 0;
+}
+
+.emoji-div:hover {
+  background-color: #F7EFEF;
+  cursor: pointer;
+}
+
+.emoji-div:hover p {
+  display: inline;
+}
+
+.emoji-div span:not(:nth-child(2)) {
+  margin-right: 15px;
+}
